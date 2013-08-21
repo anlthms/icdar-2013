@@ -1,0 +1,28 @@
+ICDAR2013 - Gender Prediction from Handwriting Contest 
+
+This archive contains source code and documentation from team Anil Thomas.
+The following files are included: 
+
+    genpred.r       Source code  
+    features.csv    Input file containing feature names 
+    genpred.pdf     Documentation
+    COPYING         Copyright notice
+    README          This file
+
+How to run the code:
+
+1.  Make sure that R and the gbm package are installed on the target machine.
+
+2.  Copy the source files (genpred.r and features.csv) to the same directory
+    containing the data set provided as part of the contest (train.csv,
+    train_answers.csv and test.csv).
+
+3.  Change the working directory to the one where files were copied to.
+
+4.  Launch R and run the code using the following command: source("genpred.r").
+
+5.  After the program exits in a few minutes, a file called subm.csv
+    containing the test predictions may be found in the same directory.
+
+
+See http://www.kaggle.com/c/icdar2013-gender-prediction-from-handwriting/forums/t/4316/post-competition-survey/22859#post22859 for more details.
